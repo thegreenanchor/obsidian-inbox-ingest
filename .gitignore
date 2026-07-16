@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Local logs
+*.log
+inbox_ingest.log
+
+# Temporary and scratch directories
+.scratch/
+parsed_output/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+venv/
+.venv/
+env/
+.env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
