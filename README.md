@@ -34,6 +34,17 @@ This project shifts the work to **compilation**:
 2. **The Ingest Engine (Compiler):** An AI processes the raw files once, extracts structured data, links entities, and detects calendar events.
 3. **The Obsidian Vault (Executable Wiki):** Clean, interlinked, structured Markdown files are written back to your vault. The vault grows smarter and more organized over time.
 
+> [!NOTE]
+> ### 📖 How It Works: The "Magic Drawer" Analogy
+> Imagine you have a magic digital drawer called the **Inbox**. Whenever you find something interesting—like a photo, a website link, a voice note, or a concert ticket—you just throw it in.
+> 
+> This ingestion pipeline acts like a smart robot helper that cleans out this drawer for you:
+> 
+> * **Safety Check:** The robot checks the file first to make sure it doesn't contain private passwords or keys. If it does, it locks it in a "quarantine" box.
+> * **Reading & Listening:** If it's a photo, the robot uses an AI "eye" to see what's in the image. If it's a sound file, it transcribes the words. If it's a link, it downloads the web content.
+> * **Sorting & Filing:** The robot writes a summarized note of the file and files it away in the correct folder in your Obsidian vault, archiving the original.
+> * **Calendar Scheduling:** If the robot spots a date (like a doctor's appointment or flight booking), it drafts the event and text messages you: *"Hey, should I add this to your calendar?"* Just text back "yes" or "no" and it handles the rest!
+
 ---
 
 ## ⚙️ Dual Execution Modes
