@@ -2,14 +2,22 @@
 
 ![Obsidian Inbox Ingest Banner](assets/banner.jpg)
 
-[![Obsidian](https://img.shields.io/badge/Obsidian-v1.0%2B-purple.svg)](https://obsidian.md/)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+<p align="center">
+  <a href="https://obsidian.md/"><img src="https://img.shields.io/badge/Obsidian-v1.0%2B-purple.svg" alt="Obsidian" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python" /></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+</p>
 
-### Compile raw inputs. Generate structured knowledge. Built for agents and scripts.
+<p align="center"><b>Compile raw inputs. Generate structured knowledge. Built for agents and scripts.</b></p>
 
-[Quickstart](#-running-the-script) | [Prerequisites](#1-prerequisites) | [SOP Rules](#-compilation-sop-for-ai-agents) | [Environment Variables](#3-environment-setup) | [License](#-license)
+<p align="center">
+  <a href="#-running-the-script">Quickstart</a> | 
+  <a href="#1-prerequisites">Prerequisites</a> | 
+  <a href="#-compilation-sop-for-ai-agents">SOP Rules</a> | 
+  <a href="#3-environment-setup">Environment Variables</a> | 
+  <a href="#-license">License</a>
+</p>
 
 An offline-first, local ingestion and metadata compiler for Obsidian vaults, heavily inspired by **Andrey Karpathy's "LLM Wiki" paradigm**. 
 
