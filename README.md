@@ -1,5 +1,16 @@
 # Obsidian Inbox Ingest Pipeline (LLM Wiki Compiler)
 
+![Obsidian Inbox Ingest Banner](assets/banner.jpg)
+
+[![Obsidian](https://img.shields.io/badge/Obsidian-v1.0%2B-purple.svg)](https://obsidian.md/)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+
+### Compile raw inputs. Generate structured knowledge. Built for agents and scripts.
+
+[Quickstart](#-running-the-script) | [Prerequisites](#1-prerequisites) | [SOP Rules](#-compilation-sop-for-ai-agents) | [Environment Variables](#3-environment-setup) | [License](#-license)
+
 An offline-first, local ingestion and metadata compiler for Obsidian vaults, heavily inspired by **Andrey Karpathy's "LLM Wiki" paradigm**. 
 
 Rather than relying on query-time search (RAG) which forces models to search raw files repeatedly, this pipeline actively **compiles** raw inputs (PDFs, voice memos, articles, photos) into structured, interlinked, human-readable markdown notes.
