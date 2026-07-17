@@ -1,6 +1,6 @@
 # Obsidian Inbox Ingest Pipeline (LLM Wiki Compiler)
 
-![Obsidian Inbox Ingest Banner](assets/banner.jpg)
+![Obsidian Inbox Ingest Banner](assets/obsidian-inbox-ingest-featured-2x.png)
 
 <p align="center">
   <a href="https://obsidian.md/"><img src="https://img.shields.io/badge/Obsidian-v1.0%2B-purple.svg" alt="Obsidian" /></a>
